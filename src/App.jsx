@@ -56,7 +56,7 @@ function App() {
         {!takeaway?
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            <img style={{width: 200}} src={'/mikegif.gif'} />
+            <img style={{width: 200}} src={'mikegif.gif'} />
             <Typography style={style.testi}>Hei, kiinnostaisko ottaa vaikka tollanen takeaway kahvi jokupäivä?</Typography>
           </Grid>
           <Grid item xs={6}>
@@ -69,7 +69,7 @@ function App() {
         </Grid>
         :
         <>
-        <img src={'/makesweet-77klpn.gif'} />
+        <img src={'makesweet-77klpn.gif'} />
         </>
         }
       </Container>
